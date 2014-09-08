@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="default" type="array">
+            <label index="forgotPassword">Forgot your password?</label>
+            <label index="startPasswordRecovery">Start password recovery</label>
+            <label index="goBack">« Go back</label>
+            <label index="goBackToLoginScreen">« Go back to login screen</label>
+            <label index="emailOrUsername">E-mail or username</label>
+            <label index="forgotPasswordHeading">Forgot your password?</label>
+            <label index="forgotPasswordProcessDescription">Please enter your e-mail or username in order to start the password recovery process. If you entered correct data, a link to the password reset form will be sent to your e-mail address.</label>
+            <label index="errorUserNotFoundHeading">User not found</label>
+            <label index="errorUserNotFoundDescription">Could not find a user with the provided username/e-mail.</label>
+            <label index="errorMultipleUsersHeading">Multiple users found</label>
+            <label index="errorMultipleUsersDescription">Multiple users found with the provided username/e-mail. Please contact website administrators. Password recovery process failed.</label>
+            <label index="errorUserFoundEmailNotValidHeading">User has no valid e-mail</label>
+            <label index="errorUserFoundEmailNotValidDescription">A user with the provided username has been found, but unfortunately that user has no e-mail address configured. Please contact website administrators. Password recovery process failed.</label>
+            <label index="emailSentHeading">Password recovery</label>
+            <label index="emailSentDescription">E-mail containing information regarding completing the password recovery process has been sent to your address.</label>
+            <label index="emailNotSentHeading">Error</label>
+            <label index="emailNotSentDescription">An error occured while trying to send you an email containing information regarding completing the password recovery process. Please try again later or contact website administrators if this problems persists for a longer period of time.</label>
+            <label index="initPasswordRecoveryMailSubject">Password recovery</label>
+            <label index="initPasswordRecoveryMailGreeting">Hi %s,</label>
+            <label index="initPasswordRecoveryMailSignature"><![CDATA[Best regards,<br/>
+%s Team]]></label>
+            <label index="initPasswordRecoveryMailDescription1">Someone (probably you) has initialized a password recovery process for your account on the website "%s". Please click on the following link in order to reset your password:</label>
+            <label index="initPasswordRecoveryMailDescription2">The link will automatically expire in 1 hour. If you did not initialize the password recovery process please ignore this email.</label>
+
+            <label index="passwordResetHeading">Change password</label>
+            <label index="passwordResetDescription">Please enter new password for the account "%s":</label>
+            <label index="newPassword">New password</label>
+            <label index="newPasswordRepeat">New password (repeat)</label>
+            <label index="submit">Submit</label>
+
+            <label index="passwordResetErrorHeading">Password recovery expired</label>
+            <label index="passwordResetErrorDescription">There was an error while trying to continue the password recovery process. If you have come here by clicking a link in your email it has probably expired. Please start the password recovery process from scratch.</label>
+            <label index="restartPasswordRecovery">Restart password recovery »</label>
+
+            <label index="passwordResetSuccessHeading">Password changed successfully</label>
+            <label index="passwordResetSuccessDescription">Your password has been successfully changed.</label>
+            <label index="proceedToLoginForm">Proceed to the login form »</label>
+
+            <label index="passwordsDoNotMatchHeading">An error occurred</label>
+            <label index="passwordsDoNotMatchDescription">An error occurred while trying to update your password. Please make sure you entered both passwords.</label>
+		</languageKey>
+	</data>
+</T3locallang>
